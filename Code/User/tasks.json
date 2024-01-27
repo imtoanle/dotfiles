@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "coder_list_workspaces",
+            "type": "shell",
+            "command": "coder list"
+        },
+    ]
+}
