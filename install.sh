@@ -71,4 +71,3 @@ if [ -d "$PATH_VS_1" ]; then
     $COMMAND_T "$PATH_VS_1"  
 fi
 
-./install-vscode-extensions.sh
