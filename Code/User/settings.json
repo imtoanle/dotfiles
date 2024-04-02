@@ -80,5 +80,6 @@ If locally installed VS Code, this file is located:
   "terminal.integrated.enablePersistentSessions": false,
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "terminal.integrated.defaultProfile.linux": "zsh"
 }
