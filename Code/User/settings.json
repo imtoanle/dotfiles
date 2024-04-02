@@ -64,7 +64,7 @@ If locally installed VS Code, this file is located:
   "editor.suggestSelection": "first",
 
   // Enable word based suggestions
-  "editor.wordBasedSuggestions": false,
+  "editor.wordBasedSuggestions": "off",
 
   // Enable parameter hints
   "editor.parameterHints.enabled": true,

@@ -39,6 +39,9 @@ stkb.rewrap
 IBM.output-colorizer
 )
 
+
+VSCS_DIR=$(ls -td ~/.vscode-server/bin/*/ | head -1)
+
 for i in ${pkglist[@]}; do
-  code --install-extension $i
+  $VSCS_DIR/bin/code-server --install-extension $i
 done
