@@ -1,6 +1,6 @@
 [user]
         name = Toan Le
-        email = info@imtoanle.com
+        email = toanledev@gmail.com
 
 [core]
         excludesfile = ~/.gitignore_global
