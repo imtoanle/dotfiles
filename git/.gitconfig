@@ -1,15 +1,15 @@
 [user]
-    name = Toan Le
-    email = info@imtoanle.com
+        name = Toan Le
+        email = info@imtoanle.com
 
 [core]
-	excludesfile = ~/.gitignore_global
-	editor = code --wait
+        excludesfile = ~/.gitignore_global
+        editor = vim
 [pull]
-	rebase = true
+        rebase = true
 [fetch]
-	prune = true
+        prune = true
 [diff]
-	colorMoved = zebra
+        colorMoved = zebra
 [push]
-	default = current
+        default = current
