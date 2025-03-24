@@ -8,7 +8,7 @@ echo "STEP: copying .gitconfig and .gitignore_global"
 cp -r ./git/.gitconfig ./git/.gitignore_global ~
 
 echo "Change Shell Default for User $USER"
-sudo chsh -s ${which zsh} $USER
+sudo chsh -s $(which zsh) $USER
 
 PATH_CS_1="$HOME/.local/share/code-server"
 PATH_CS_2="$HOME/.local/share/code-server/User"
